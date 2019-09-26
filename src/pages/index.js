@@ -1,9 +1,16 @@
-import React, { Component } from "react"
+import React from "react"
+import { graphql } from "gatsby"
 
-class App extends Component {
-  render() {
-    return <div>Hello world!</div>
+export default ({ data }) => (
+  <div>{data.site.siteMetadata.title}</div>
+)
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
   }
-}
-
-export default App
+  `

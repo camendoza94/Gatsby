@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Kelly Garcés",
+    "url": "https://profesores.virtual.uniandes.edu.co/kjgarces971/es/inicio/",
+    "category": "professor",
+    "subCategory": "lead"
+  },
+  {
+    "name": "Rubby Casallas",
+    "url": "https://profesores.virtual.uniandes.edu.co/kjgarces971/es/inicio/",
+    "category": "professor",
+    "subCategory": "co"
+  },
+  {
+    "name": "Nicolas Cardozo",
+    "url": "https://profesores.virtual.uniandes.edu.co/kjgarces971/es/inicio/",
+    "category": "professor",
+    "subCategory": "co"
+  },
+  {
+    "name": "Iván Alfonso",
+    "category": "phd",
+    "state": "inactive"
+  },
+  {
+    "name": "Diego Prens",
+    "category": "msc",
+    "subCategory": "research",
+    "state": "active"
+  },
+  {
+    "name": "Jairo Ariza",
+    "category": "msc",
+    "subCategory": "research",
+    "state": "active"
+  },
+  {
+    "name": "Paula Castellanos",
+    "category": "msc",
+    "subCategory": "deepening",
+    "state": "active"
+  },
+  {
+    "name": "Diego Prieto",
+    "category": "msc",
+    "subCategory": "deepening",
+    "state": "active"
+  },
+  {
+    "name": "Jarvein Rivera",
+    "category": "msc",
+    "subCategory": "deepening",
+    "state": "active"
+  },
+  {
+    "name": "José Pulgarín",
+    "category": "msc",
+    "subCategory": "deepening",
+    "state": "inactive"
+  },
+  {
+    "name": "Félix Ruiz",
+    "category": "msc",
+    "subCategory": "deepening",
+    "state": "inactive"
+  }
+]
