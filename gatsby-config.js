@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: "/gatsby",
   siteMetadata: {
-    title: "SELF (Software Evolution Laboratory For applications)",
+    title: "SELF (Software Evolution Laboratory For Applied Research)",
   },
   plugins: [
     {
@@ -12,5 +12,6 @@ module.exports = {
       },
     },
     `gatsby-transformer-json`,
+    `gatsby-plugin-sass`,
   ],
 }
