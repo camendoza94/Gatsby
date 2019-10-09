@@ -15,7 +15,7 @@ export default ({ data }) => {
         <Accordion defaultActiveKey="0">
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey="0">
-              Ongoing projects
+              <h5>Ongoing projects</h5>
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
               <Fragment>
@@ -23,7 +23,7 @@ export default ({ data }) => {
               </Fragment>
             </Accordion.Collapse>
             <Accordion.Toggle as={Card.Header} eventKey="1">
-              Finished projects
+              <h5>Finished projects</h5>
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="1">
               <Fragment>

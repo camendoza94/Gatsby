@@ -2,11 +2,14 @@ import React from "react"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 import Container from "react-bootstrap/Container"
+import logo from "./img/SELF.jpg"
+import Image from "react-bootstrap/Image"
+import "./header.css"
 
 export default () => (
-  <Navbar bg="dark" variant="dark" expand="sm">
+  <Navbar expand="sm">
     <Container>
-      <Navbar.Brand href="/">SELF</Navbar.Brand>
+      <Navbar.Brand href="/"><Image src={logo} className="logo"/></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">

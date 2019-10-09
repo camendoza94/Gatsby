@@ -13,3 +13,19 @@
 .github a:hover {
     text-decoration: none !important;
 }
+
+.material-icons {
+    vertical-align: text-bottom;
+}
+
+.card {
+    background-color: beige;
+}
+
+body, a {
+    color: #880421
+}
+
+a:hover, a:focus {
+    color: #460412
+}

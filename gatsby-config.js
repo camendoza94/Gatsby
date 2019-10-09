@@ -11,6 +11,15 @@ module.exports = {
         path: `${__dirname}/data/`,
       },
     },
-    `gatsby-transformer-json`
+    `gatsby-transformer-json`,
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: [
+          'material icons',
+          'roboto:300,400,500,700',
+        ],
+      },
+    }
   ],
 }
