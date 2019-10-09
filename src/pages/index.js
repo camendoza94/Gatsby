@@ -1,18 +1,18 @@
-import React from "react"
+import React, { Fragment } from "react"
 import { graphql } from "gatsby"
 import Header from "../components/header"
 import Container from "react-bootstrap/Container"
 import Image from "react-bootstrap/Image"
 
 export default ({ data }) => (
-  <div>
+  <Fragment>
     <Header/>
     <Container>
       <Image src="https://via.placeholder.com/1300x500" fluid />
       <h1>Group Description</h1>
       <p>{data.allDataJson.edges[0].node.description}</p>
     </Container>
-  </div>
+  </Fragment>
 )
 
 export const query = graphql`

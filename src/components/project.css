@@ -1,0 +1,15 @@
+.github span {
+    opacity: 0;
+}
+
+.github image {
+    cursor: pointer;
+}
+
+.github a:hover span {
+    opacity: 1;
+}
+
+.github a:hover {
+    text-decoration: none !important;
+}

@@ -1,9 +1,11 @@
-import React from "react"
+import React, { Fragment } from "react"
 import { graphql } from "gatsby"
+import Header from "../components/header"
 
 export default ({ data }) => {
   return (
-    <div>
+    <Fragment>
+      <Header/>
       <h1>Professors</h1>
       {data.allMembersJson.edges.map(n => {
         if (n.node.category === "professor")
@@ -16,7 +18,7 @@ export default ({ data }) => {
           return <div key={n.node.name}>{n.node.name}</div>
         return "";
       })}
-    </div>
+    </Fragment>
   )
 }
 
