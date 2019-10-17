@@ -33,8 +33,9 @@ export default props => (
               <span className="material-icons">people</span>
               <span>{props.node.members.map((p, i, l) => i === l.length - 1 ?
                 <a
+                  key={p}
                   href={data.allMembersJson.edges.find((n, index) => index === p).node.url}>{data.allMembersJson.edges.find((n, index) => index === p).node.name}</a> :
-                <Fragment>
+                <Fragment key={p}>
                   <a
                     href={data.allMembersJson.edges.find((n, index) => index === p).node.url}>{data.allMembersJson.edges.find((n, index) => index === p).node.name}</a>,&nbsp;
                 </Fragment>,
@@ -49,7 +50,7 @@ export default props => (
             <h6>Publications</h6>
             <span className="material-icons">library_books</span>
             {props.node.publications.map(p => {
-              return <Card.Link href={p.url} target="_blank" rel="noopener noreferrer">
+              return <Card.Link key={p} href={p.url} target="_blank" rel="noopener noreferrer">
                 {p.name}
               </Card.Link>
             })}

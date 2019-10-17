@@ -19,7 +19,8 @@ export default ({ data }) => {
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
               <Fragment>
-                {data.allProjectsJson.edges.filter(n => n.node.status === "active").map(n => <Project node={n.node}/>)}
+                {data.allProjectsJson.edges.filter(n => n.node.status === "active").map((n, i) => <Project key={i}
+                                                                                                           node={n.node}/>)}
               </Fragment>
             </Accordion.Collapse>
             <Accordion.Toggle as={Card.Header} eventKey="1">
@@ -27,8 +28,8 @@ export default ({ data }) => {
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="1">
               <Fragment>
-                {data.allProjectsJson.edges.filter(n => n.node.status === "inactive").map(n => <Project
-                  node={n.node}/>)}
+                {data.allProjectsJson.edges.filter(n => n.node.status === "inactive").map((n, i) => <Project key={i}
+                                                                                                             node={n.node}/>)}
               </Fragment>
             </Accordion.Collapse>
           </Card>
