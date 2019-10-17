@@ -18,10 +18,10 @@ export default () => (
           <Nav.Link href="/projects">Projects</Nav.Link>
           <NavDropdown title="People" id="people">
             <NavDropdown.Item href="/members">All Members</NavDropdown.Item>
-            <NavDropdown.Item href="#">Students</NavDropdown.Item>
+            <NavDropdown.Item href="/students">Students</NavDropdown.Item>
             <NavDropdown.Item href="/professors">Professors</NavDropdown.Item>
             <NavDropdown.Divider/>
-            <NavDropdown.Item href="#">Industry Partners</NavDropdown.Item>
+            <NavDropdown.Item href="/partners">Industry Partners</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="#pricing">Contact</Nav.Link>
         </Nav>

@@ -9,7 +9,8 @@ export default (props) => (
         <a href={props.node.url} target="_blank" rel="noopener noreferrer"><h5>{props.node.name}</h5></a>
       </Card.Title>
       <Card.Text className="text-center">
-        {props.node.subCategory}
+        {props.node.subCategory} {props.node.subCategory && props.node.state === "inactive" && <br/>}
+        {props.node.state === "inactive" ? <small className="text-muted">past member</small> : ""}
       </Card.Text>
     </Card.Body>
   </Card>
