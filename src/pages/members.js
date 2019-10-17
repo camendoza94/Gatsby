@@ -1,6 +1,7 @@
 import React, { Fragment } from "react"
 import { graphql } from "gatsby"
 import Header from "../components/header"
+import Member from "../components/member"
 import Card from "react-bootstrap/Card"
 import Container from "react-bootstrap/Container"
 import CardDeck from "react-bootstrap/CardDeck"
@@ -11,40 +12,21 @@ export default ({ data }) => {
     <Fragment>
       <Header/>
       <Container className="mt-3">
-        {data.allMembersJson.edges.find(n => n.node.category === "professor") ?
-          <Fragment>
-            <h1>Professors</h1>
-            <CardDeck>
-              {data.allMembersJson.edges.map(n => {
-                if (n.node.category === "professor")
-                  return <Card className="border-0 shadow mb-4">
-                    <Card.Img variant="top" src="https://via.placeholder.com/350x150"/>
-                    <Card.Body>
-                      <Card.Text className="text-center">
-                        <h5>{n.node.name}</h5>
-                        {n.node.subCategory}
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
-                return ""
-              })}
-            </CardDeck>
-          </Fragment> : ""}
+        <h1>Professors</h1>
+        <CardDeck>
+          {data.allMembersJson.edges.map(n => {
+            if (n.node.category === "professor")
+              return <Member node={n.node}/>
+            return ""
+          })}
+        </CardDeck>
         {data.allMembersJson.edges.find(n => n.node.category === "phd" && n.node.state === "active") ?
           <Fragment>
             <h1>PHD Candidates</h1>
             <CardDeck>
               {data.allMembersJson.edges.map(n => {
                 if (n.node.category === "phd" && n.node.state === "active")
-                  return <Card className="border-0 shadow mb-4">
-                    <Card.Img variant="top" src="https://via.placeholder.com/350x150"/>
-                    <Card.Body>
-                      <Card.Text className="text-center">
-                        <h5>{n.node.name}</h5>
-                        {n.node.subCategory}
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
+                  return <Member node={n.node}/>
                 return ""
               })}
             </CardDeck>
@@ -55,15 +37,7 @@ export default ({ data }) => {
             <CardDeck>
               {data.allMembersJson.edges.map(n => {
                 if (n.node.category === "msc" && n.node.state === "active")
-                  return <Card className="border-0 shadow mb-4">
-                    <Card.Img variant="top" src="https://via.placeholder.com/350x150"/>
-                    <Card.Body>
-                      <Card.Text className="text-center">
-                        <h5>{n.node.name}</h5>
-                        {n.node.subCategory}
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
+                  return <Member node={n.node}/>
                 return ""
               })}
             </CardDeck>
@@ -74,15 +48,7 @@ export default ({ data }) => {
             <CardDeck>
               {data.allMembersJson.edges.map(n => {
                 if (n.node.category === "bsc" && n.node.state === "active")
-                  return <Card className="border-0 shadow mb-4">
-                    <Card.Img variant="top" src="https://via.placeholder.com/350x150"/>
-                    <Card.Body>
-                      <Card.Text className="text-center">
-                        <h5>{n.node.name}</h5>
-                        {n.node.subCategory}
-                      </Card.Text>
-                    </Card.Body>
-                  </Card>
+                  return <Member node={n.node}/>
                 return ""
               })}
             </CardDeck>

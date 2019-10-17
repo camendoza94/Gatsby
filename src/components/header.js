@@ -19,7 +19,7 @@ export default () => (
           <NavDropdown title="People" id="people">
             <NavDropdown.Item href="/members">All Members</NavDropdown.Item>
             <NavDropdown.Item href="#">Students</NavDropdown.Item>
-            <NavDropdown.Item href="">Professors</NavDropdown.Item>
+            <NavDropdown.Item href="/professors">Professors</NavDropdown.Item>
             <NavDropdown.Divider/>
             <NavDropdown.Item href="#">Industry Partners</NavDropdown.Item>
           </NavDropdown>
