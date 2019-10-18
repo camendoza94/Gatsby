@@ -1,7 +1,7 @@
 import React, { Fragment } from "react"
 import { graphql } from "gatsby"
 import Header from "../components/header"
-import Project from "../components/project"
+import ProjectSummary from "../components/projectSummary"
 import Container from "react-bootstrap/Container"
 import Card from "react-bootstrap/Card"
 import Accordion from "react-bootstrap/Accordion"
@@ -19,7 +19,7 @@ export default ({ data }) => {
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
               <Fragment>
-                {data.allProjectsJson.edges.filter(n => n.node.status === "active").map((n, i) => <Project key={i}
+                {data.allProjectsJson.edges.filter(n => n.node.status === "active").map((n, i) => <ProjectSummary key={i}
                                                                                                            node={n.node}/>)}
               </Fragment>
             </Accordion.Collapse>
@@ -28,7 +28,7 @@ export default ({ data }) => {
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="1">
               <Fragment>
-                {data.allProjectsJson.edges.filter(n => n.node.status === "inactive").map((n, i) => <Project key={i}
+                {data.allProjectsJson.edges.filter(n => n.node.status === "inactive").map((n, i) => <ProjectSummary key={i}
                                                                                                              node={n.node}/>)}
               </Fragment>
             </Accordion.Collapse>
@@ -47,13 +47,9 @@ query Projects {
         id
         url
         name
-        description
-        members
         status
-        publications {
-          name
-          url
-        }
+        summary
+        researchLine
       }
     }
   }
