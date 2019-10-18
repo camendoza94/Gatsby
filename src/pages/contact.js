@@ -13,10 +13,10 @@ export default ({ data }) => (
       <Row className="contact">
         <Col md={6} xs={12}>
           <h1>Contact</h1>
-          <h5>{data.allMembersJson.edges[0].node.name}</h5>
-          {data.allMembersJson.edges[0].node.subCategory}<br/>
-          {data.allMembersJson.edges[0].node.email}<br/>
-          {data.allMembersJson.edges[0].node.phone}
+          <h5>{data.membersJson.name}</h5>
+          {data.membersJson.subCategory}<br/>
+          {data.membersJson.email}<br/>
+          {data.membersJson.phone}
         </Col>
       </Row>
     </Container>
@@ -25,16 +25,12 @@ export default ({ data }) => (
 
 export const query = graphql`
   query Contact {
-  allMembersJson(filter: {category: {eq: "professor"}, contact: {eq: true}}) {
-    edges {
-      node {
-        name
-        url
-        email
-        phone
-        subCategory
-      }
-    }
+  membersJson(category: {eq: "professor"}, contact: {eq: true}) {
+    name
+    url
+    email
+    phone
+    subCategory
   }
 }
  `

@@ -1,6 +1,7 @@
 [
   {
     "name": "Adaptive Architecture for Transient IoT Systems",
+    "slug": "adaptive_architecture",
     "researchLine": 0,
     "url": "https://github.com/SELF-Software-Evolution-Lab/Adaptive-Architecture-for-Transient-IoT-Systems",
     "description": "Adaptation is crucial for the success of IoT systems since these are part of continuously changing environments. Changes may come from the different layers of an IOT system, either service, connectivity or physical layer. Most existing literature pays special attention to changes in the service layer leaving out the rest of the layers. In previous work, we have presented eight challenges that may impact the three layers of IoT systems. These challenges have served us as a research agenda to foster IoT systems. As a starting point, we chose two of these challenges –referred to as inclusion of new devices and devices’ transient connection– and designed a software architecture to adaptIoT systems to them. Various of the architectural components are inspired on a reference architecture, and complemented by new components to manage dynamic adaptations in response to the two selected challenges. Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
@@ -13,13 +14,14 @@
     ],
     "publications": [
       {
-        "name": "A Research Agenda for IOT Adaptive Architectures",
+        "name": "Ariza J, Mendoza C, Garces K, Cardozo N. (2018) A Research Agenda for IOT Adaptive Architectures. Proceedings (ISSN 2504-3900) 2 (-), pp. 1229-1229.",
         "url": "https://www.mdpi.com/2504-3900/2/19/1229"
       }
     ]
   },
   {
     "name": "Adaptive Architecture for Transient IoT Systems",
+    "slug": "adaptive_architecture2",
     "researchLine": 0,
     "url": "https://github.com/SELF-Software-Evolution-Lab/Adaptive-Architecture-for-Transient-IoT-Systems",
     "description": "Adaptation is crucial for the success of IoT systems since these are part of continuously changing environments. Changes may come from the different layers of an IOT system, either service, connectivity or physical layer. Most existing literature pays special attention to changes in the service layer leaving out the rest of the layers. In previous work, we have presented eight challenges that may impact the three layers of IoT systems. These challenges have served us as a research agenda to foster IoT systems. As a starting point, we chose two of these challenges –referred to as inclusion of new devices and devices’ transient connection– and designed a software architecture to adaptIoT systems to them. Various of the architectural components are inspired on a reference architecture, and complemented by new components to manage dynamic adaptations in response to the two selected challenges. Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
