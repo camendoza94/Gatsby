@@ -1,5 +1,4 @@
 import React, { Fragment } from "react"
-import Card from "react-bootstrap/Card"
 import GithubLogo from "./img/GitHub-Mark-32px.png"
 import Image from "react-bootstrap/Image"
 import "./project.css"
@@ -22,12 +21,18 @@ export default ({ data, pageContext }) => (
         <span className="material-icons">people</span>
         <span className="ml-1">{pageContext.node.members.map((p, i, l) => i === l.length - 1 ?
           <a
-            key={p}
+            key={"members" + i}
             href={data.allMembersJson.edges.find((n, index) => index === p).node.url}>{data.allMembersJson.edges.find((n, index) => index === p).node.name}</a> :
-          <Fragment key={p}>
+          <Fragment key={"members" + i}>
             <a
               href={data.allMembersJson.edges.find((n, index) => index === p).node.url}>{data.allMembersJson.edges.find((n, index) => index === p).node.name}</a>,&nbsp;
           </Fragment>,
+        )}
+              </span>
+        <br/>
+        <span className="material-icons">business</span>
+        <span className="ml-1">{pageContext.node.industry.map((p, i, l) => i === l.length - 1 ?
+          <Fragment key={"industry" + i}>{p.name}</Fragment> : <Fragment key={"industry" + i}>{p.name},&nbsp;</Fragment>,
         )}
               </span>
         <br/>
@@ -36,9 +41,8 @@ export default ({ data, pageContext }) => (
       </div>
       <p>{pageContext.node.description}</p>
       <h6>Results</h6>
-
-      {pageContext.node.publications.map(p => {
-        return <Fragment>
+      {pageContext.node.publications.map((p, i) => {
+        return <Fragment key={"results" + i}>
           <span className="material-icons">library_books</span>
           <a className="ml-1 font-italic" key={p} href={p.url} target="_blank" rel="noopener noreferrer">
             {p.name}
