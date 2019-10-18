@@ -14,7 +14,7 @@ export default () => (
       <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="#home">Research</Nav.Link>
+          <Nav.Link href="/research">Research</Nav.Link>
           <Nav.Link href="/projects">Projects</Nav.Link>
           <NavDropdown title="People" id="people">
             <NavDropdown.Item href="/members">All Members</NavDropdown.Item>
@@ -23,7 +23,7 @@ export default () => (
             <NavDropdown.Divider/>
             <NavDropdown.Item href="/partners">Industry Partners</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="#pricing">Contact</Nav.Link>
+          <Nav.Link href="/contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

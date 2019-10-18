@@ -19,6 +19,7 @@ exports.createPages = async ({ graphql, actions }) => {
               url
             }
             researchLine
+            period
           }
         }
       }
