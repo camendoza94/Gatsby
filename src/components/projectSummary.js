@@ -26,8 +26,6 @@ export default props => (
                 && data.allResearchLinesJson.edges.find((n, i) => i === props.node.researchLine).node.name}</span>
           </Card.Header>
           <Card.Body>
-            <Card.Subtitle className="mb-2 text-muted">
-            </Card.Subtitle>
             <Card.Text className="text-justify">
               {props.node.summary}
             </Card.Text>
