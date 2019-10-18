@@ -3,7 +3,10 @@
     "name": "Kelly Garcés",
     "url": "https://profesores.virtual.uniandes.edu.co/kjgarces971/es/inicio/",
     "category": "professor",
-    "subCategory": "lead"
+    "subCategory": "lead",
+    "contact": true,
+    "email": "kj.garces971[at]uniandes.edu.co",
+    "phone": "3394949 ext. 54545"
   },
   {
     "name": "Rubby Casallas",

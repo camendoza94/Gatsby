@@ -1,4 +1,4 @@
-import React, { Fragment } from "react"
+import React from "react"
 import Card from "react-bootstrap/Card"
 import "./project.css"
 import { StaticQuery, graphql } from "gatsby"

@@ -9,7 +9,7 @@ export default ({ data }) => (
     <Header/>
     <Container>
       <Image src="https://via.placeholder.com/1300x500" fluid />
-      <h1>Group Description</h1>
+      <h1>SELF (Software Evolution Laboratory For Applied Research)</h1>
       <p>{data.allDataJson.edges[0].node.description}</p>
     </Container>
   </Fragment>
