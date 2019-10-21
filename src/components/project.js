@@ -17,11 +17,13 @@ export default ({ data, pageContext }) => (
           <span className="text-muted" style={{ "fontSize": "16px" }}>See Repository</span>
         </a>
       </h1>
-      <div className="mb-2 text-muted">
+      <div className="mb-2">
         <span className="material-icons">people</span>
         <span className="ml-1">{pageContext.node.members.map((p, i, l) => i === l.length - 1 ?
           <a
             key={"members" + i}
+            target="_blank"
+            rel="noreferrer noopener"
             href={data.allMembersJson.edges.find((n, index) => index === p).node.url}>{data.allMembersJson.edges.find((n, index) => index === p).node.name}</a> :
           <Fragment key={"members" + i}>
             <a

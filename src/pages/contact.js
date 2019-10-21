@@ -28,7 +28,6 @@ export const query = graphql`
     name
     url
     email
-    phone
     subCategory
   }
 }

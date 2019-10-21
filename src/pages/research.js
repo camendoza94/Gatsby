@@ -3,9 +3,6 @@ import { graphql } from "gatsby"
 import Header from "../components/header"
 import Research from "../components/research"
 import Container from "react-bootstrap/Container"
-import Card from "react-bootstrap/Card"
-import Accordion from "react-bootstrap/Accordion"
-
 export default ({ data }) => {
   return (
     <Fragment>

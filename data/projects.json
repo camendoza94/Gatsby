@@ -43,6 +43,11 @@
       2,
       5
     ],
+    "industry": [
+      {
+        "name": "Giovanny Saray"
+      }
+    ],
     "publications": [
       {
         "name": "A Research Agenda for IOT Adaptive Architectures",

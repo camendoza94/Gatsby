@@ -16,7 +16,10 @@ export default () => (
         <Nav className="ml-auto">
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/research">Research</Nav.Link>
-          <Nav.Link href="/projects">Projects</Nav.Link>
+          <NavDropdown title="Projects" id="projects">
+            <NavDropdown.Item href="/active_projects">Active Projects</NavDropdown.Item>
+            <NavDropdown.Item href="/past_projects">Past Projects</NavDropdown.Item>
+          </NavDropdown>
           <NavDropdown title="People" id="people">
             <NavDropdown.Item href="/members">All Members</NavDropdown.Item>
             <NavDropdown.Item href="/students">Students</NavDropdown.Item>
