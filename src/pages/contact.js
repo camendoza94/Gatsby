@@ -4,7 +4,7 @@ import Header from "../components/header"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
-import "./contact.css"
+import Obfuscate from "react-obfuscate"
 
 export default ({ data }) => (
   <Fragment>
@@ -15,8 +15,7 @@ export default ({ data }) => (
           <h1>Contact</h1>
           <h5>{data.membersJson.name}</h5>
           {data.membersJson.subCategory}<br/>
-          {data.membersJson.email}<br/>
-          {data.membersJson.phone}
+          <Obfuscate email={data.membersJson.email}/><br/>
         </Col>
       </Row>
     </Container>
