@@ -39,12 +39,12 @@ export default ({ data, pageContext }) => (
         <span className="material-icons">access_time</span>
         <span className="ml-1">{pageContext.node.period}</span>
       </div>
-      <p>{pageContext.node.description}</p>
+      <p className="text-justify">{pageContext.node.description}</p>
       <h6>Results</h6>
       {pageContext.node.publications.map((p, i) => {
         return <Fragment key={"results" + i}>
           <span className="material-icons">library_books</span>
-          <a className="ml-1 font-italic" key={p} href={p.url} target="_blank" rel="noopener noreferrer">
+          <a className="ml-1" key={p} href={p.url} target="_blank" rel="noopener noreferrer">
             {p.name}
           </a>
           <br/>
