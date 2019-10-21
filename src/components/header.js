@@ -21,9 +21,8 @@ export default () => (
             <NavDropdown.Item href="/past_projects">Past Projects</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown title="People" id="people">
-            <NavDropdown.Item href="/members">All Members</NavDropdown.Item>
-            <NavDropdown.Item href="/students">Students</NavDropdown.Item>
-            <NavDropdown.Item href="/professors">Professors</NavDropdown.Item>
+            <NavDropdown.Item href="/members">Active Members</NavDropdown.Item>
+            <NavDropdown.Item href="/past_members">Past Members</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/partners">Industry Partners</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>

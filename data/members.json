@@ -5,65 +5,68 @@
     "category": "professor",
     "subCategory": "Lead Researcher",
     "contact": true,
-    "email": "kj.garces971@uniandes.edu.co"
+    "email": "kj.garces971@uniandes.edu.co",
+    "status": "active"
   },
   {
     "name": "Rubby Casallas",
     "url": "https://profesores.virtual.uniandes.edu.co/kjgarces971/es/inicio/",
     "category": "professor",
-    "subCategory": "Co-researcher"
+    "subCategory": "Co-researcher",
+    "status": "active"
   },
   {
     "name": "Nicolas Cardozo",
     "url": "https://profesores.virtual.uniandes.edu.co/kjgarces971/es/inicio/",
     "category": "professor",
-    "subCategory": "Co-researcher"
+    "subCategory": "Co-researcher",
+    "status": "active"
   },
   {
     "name": "Iván Alfonso",
     "category": "phd",
-    "state": "inactive"
+    "status": "inactive"
   },
   {
     "name": "Diego Prens",
     "category": "msc",
     "subCategory": "research",
-    "state": "active"
+    "status": "active"
   },
   {
     "name": "Jairo Ariza",
     "category": "msc",
     "subCategory": "research",
-    "state": "active"
+    "status": "active"
   },
   {
     "name": "Paula Castellanos",
     "category": "msc",
     "subCategory": "deepening",
-    "state": "active"
+    "status": "active"
   },
   {
     "name": "Diego Prieto",
     "category": "msc",
     "subCategory": "deepening",
-    "state": "active"
+    "status": "active"
   },
   {
     "name": "Jarvein Rivera",
     "category": "msc",
     "subCategory": "deepening",
-    "state": "active"
+    "status": "active"
   },
   {
     "name": "José Pulgarín",
     "category": "msc",
     "subCategory": "deepening",
-    "state": "inactive"
+    "status": "inactive"
   },
   {
     "name": "Félix Ruiz",
     "category": "msc",
     "subCategory": "deepening",
-    "state": "inactive"
+    "status": "inactive"
   }
 ]

@@ -11,11 +11,22 @@ export default ({ data }) => {
     <Fragment>
       <Header/>
       <Container className="mt-3">
+        {data.allMembersJson.edges.find(n => n.node.category === "professor") ?
+          <Fragment>
+            <h1>Professors</h1>
+            <CardDeck>
+              {data.allMembersJson.edges.map(n => {
+                if (n.node.category === "professor")
+                  return <Member node={n.node}/>
+                return ""
+              })}
+            </CardDeck>
+          </Fragment> : ""}
         {data.allMembersJson.edges.find(n => n.node.category === "phd") ?
           <Fragment>
             <h1>PHD Candidates</h1>
             <CardDeck>
-              {data.allMembersJson.edges.sort((a, b) => (a.node.state > b.node.state) ? 1 : ((b.node.state > a.node.state) ? -1 : 0)).map(n => {
+              {data.allMembersJson.edges.map(n => {
                 if (n.node.category === "phd")
                   return <Member node={n.node}/>
                 return ""
@@ -26,7 +37,7 @@ export default ({ data }) => {
           <Fragment>
             <h1>Master's Degree Candidates</h1>
             <CardDeck>
-              {data.allMembersJson.edges.sort((a, b) => (a.node.state > b.node.state) ? 1 : ((b.node.state > a.node.state) ? -1 : 0)).map(n => {
+              {data.allMembersJson.edges.map(n => {
                 if (n.node.category === "msc")
                   return <Member node={n.node}/>
                 return ""
@@ -37,7 +48,7 @@ export default ({ data }) => {
           <Fragment>
             <h1>Bachelor's Degree Candidates</h1>
             <CardDeck>
-              {data.allMembersJson.edges.sort((a, b) => (a.node.state > b.node.state) ? 1 : ((b.node.state > a.node.state) ? -1 : 0)).map(n => {
+              {data.allMembersJson.edges.map(n => {
                 if (n.node.category === "bsc")
                   return <Member node={n.node}/>
                 return ""
@@ -50,15 +61,15 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-  query Students {
-  allMembersJson(filter: {category: {ne: "professor"}}) {
+  query {
+  allMembersJson(filter: {status: {eq: "inactive"}}) {
     edges {
       node {
         name
         subCategory
         category
         url
-        state
+        status
       }
     }
   }

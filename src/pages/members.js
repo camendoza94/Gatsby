@@ -19,34 +19,34 @@ export default ({ data }) => {
             return ""
           })}
         </CardDeck>
-        {data.allMembersJson.edges.find(n => n.node.category === "phd" && n.node.state === "active") ?
+        {data.allMembersJson.edges.find(n => n.node.category === "phd") ?
           <Fragment>
             <h1>PHD Candidates</h1>
             <CardDeck>
               {data.allMembersJson.edges.map(n => {
-                if (n.node.category === "phd" && n.node.state === "active")
+                if (n.node.category === "phd")
                   return <Member node={n.node}/>
                 return ""
               })}
             </CardDeck>
           </Fragment> : ""}
-        {data.allMembersJson.edges.find(n => n.node.category === "msc" && n.node.state === "active") ?
+        {data.allMembersJson.edges.find(n => n.node.category === "msc") ?
           <Fragment>
             <h1>Master's Degree Candidates</h1>
             <CardDeck>
               {data.allMembersJson.edges.map(n => {
-                if (n.node.category === "msc" && n.node.state === "active")
+                if (n.node.category === "msc")
                   return <Member node={n.node}/>
                 return ""
               })}
             </CardDeck>
           </Fragment> : ""}
-        {data.allMembersJson.edges.find(n => n.node.category === "bsc" && n.node.state === "active") ?
+        {data.allMembersJson.edges.find(n => n.node.category === "bsc") ?
           <Fragment>
             <h1>Bachelor's Degree Candidates</h1>
             <CardDeck>
               {data.allMembersJson.edges.map(n => {
-                if (n.node.category === "bsc" && n.node.state === "active")
+                if (n.node.category === "bsc")
                   return <Member node={n.node}/>
                 return ""
               })}
@@ -59,14 +59,14 @@ export default ({ data }) => {
 
 export const query = graphql`
   query Names {
-  allMembersJson {
+  allMembersJson(filter: {status: {eq: "active"}}) {
     edges {
       node {
         name
         subCategory
         category
         url
-        state
+        status
       }
     }
   }
