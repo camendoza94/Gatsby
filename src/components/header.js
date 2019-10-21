@@ -14,15 +14,15 @@ export default () => (
       <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
+          <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/research">Research</Nav.Link>
           <Nav.Link href="/projects">Projects</Nav.Link>
           <NavDropdown title="People" id="people">
             <NavDropdown.Item href="/members">All Members</NavDropdown.Item>
             <NavDropdown.Item href="/students">Students</NavDropdown.Item>
             <NavDropdown.Item href="/professors">Professors</NavDropdown.Item>
-            <NavDropdown.Divider/>
-            <NavDropdown.Item href="/partners">Industry Partners</NavDropdown.Item>
           </NavDropdown>
+          <Nav.Link href="/partners">Industry Partners</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
