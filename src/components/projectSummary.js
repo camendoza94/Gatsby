@@ -21,9 +21,10 @@ export default props => (
         <Card>
           <Card.Header as={"h4"}>
             <a href={props.node.slug}>{props.node.name}</a>
-            <span className="text-muted research-line">
-                {data.allResearchLinesJson.edges.find((n, i) => i === props.node.researchLine)
-                && data.allResearchLinesJson.edges.find((n, i) => i === props.node.researchLine).node.name}</span>
+            <span className="text-muted research-line" title="Research Line">
+              <span className="material-icons">label</span>
+              {data.allResearchLinesJson.edges.find((n, i) => i === props.node.researchLine)
+              && data.allResearchLinesJson.edges.find((n, i) => i === props.node.researchLine).node.name}</span>
           </Card.Header>
           <Card.Body>
             <Card.Text className="text-justify">

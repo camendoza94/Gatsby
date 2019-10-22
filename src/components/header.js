@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 import Container from "react-bootstrap/Container"
 import NavDropdown from "react-bootstrap/NavDropdown"
-import logo from "./img/SELF.jpg"
+import logo from "./img/Logo_SELF_editado_transparente_1.png"
 import Image from "react-bootstrap/Image"
 import "./header.css"
 
