@@ -17,7 +17,7 @@ export default ({ data }) => {
             <CardDeck>
               {data.allMembersJson.edges.map(n => {
                 if (n.node.category === "professor")
-                  return <Member node={n.node}/>
+                  return <Member key={n.node.name} node={n.node}/>
                 return ""
               })}
             </CardDeck>
@@ -28,7 +28,7 @@ export default ({ data }) => {
             <CardDeck>
               {data.allMembersJson.edges.map(n => {
                 if (n.node.category === "phd")
-                  return <Member node={n.node}/>
+                  return <Member key={n.node.name} node={n.node}/>
                 return ""
               })}
             </CardDeck>
@@ -39,7 +39,7 @@ export default ({ data }) => {
             <CardDeck>
               {data.allMembersJson.edges.map(n => {
                 if (n.node.category === "msc")
-                  return <Member node={n.node}/>
+                  return <Member key={n.node.name} node={n.node}/>
                 return ""
               })}
             </CardDeck>
@@ -50,7 +50,7 @@ export default ({ data }) => {
             <CardDeck>
               {data.allMembersJson.edges.map(n => {
                 if (n.node.category === "bsc")
-                  return <Member node={n.node}/>
+                  return <Member key={n.node.name} node={n.node}/>
                 return ""
               })}
             </CardDeck>

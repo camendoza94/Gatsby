@@ -5,7 +5,8 @@
     "category": "professor",
     "subCategory": "Lead Researcher",
     "contact": true,
-    "email": "kj.garces971@uniandes.edu.co",
+    "image" : "kj.garces971.jpg",
+    "email": "kj[dot]garces971[at]uniandes[dot]edu[dot]co",
     "status": "active"
   },
   {

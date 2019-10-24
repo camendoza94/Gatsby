@@ -20,21 +20,30 @@ export default ({ data, pageContext }) => (
       <div className="mb-2">
         <span className="material-icons">people</span>
         <span className="ml-1">{pageContext.node.members.map((p, i, l) => i === l.length - 1 ?
-          <a
-            key={"members" + i}
-            target="_blank"
-            rel="noreferrer noopener"
-            href={data.allMembersJson.edges.find((n, index) => index === p).node.url}>{data.allMembersJson.edges.find((n, index) => index === p).node.name}</a> :
-          <Fragment key={"members" + i}>
+          (data.allMembersJson.edges.find((n, index) => index === p).node.url ?
             <a
-              href={data.allMembersJson.edges.find((n, index) => index === p).node.url}>{data.allMembersJson.edges.find((n, index) => index === p).node.name}</a>,&nbsp;
-          </Fragment>,
+              className="outlink"
+              key={"members" + i}
+              target="_blank"
+              rel="noreferrer noopener"
+              href={data.allMembersJson.edges.find((n, index) => index === p).node.url}>{data.allMembersJson.edges.find((n, index) => index === p).node.name}</a>
+            : <span>{data.allMembersJson.edges.find((n, index) => index === p).node.name}</span>) :
+          (data.allMembersJson.edges.find((n, index) => index === p).node.url ?
+            <Fragment key={"members" + i}>
+              <a
+                className="outlink"
+                key={"members" + i}
+                target="_blank"
+                rel="noreferrer noopener"
+                href={data.allMembersJson.edges.find((n, index) => index === p).node.url}>{data.allMembersJson.edges.find((n, index) => index === p).node.name}</a>,&nbsp;
+            </Fragment> : <span>{data.allMembersJson.edges.find((n, index) => index === p).node.name}&nbsp;</span>),
         )}
               </span>
         <br/>
         <span className="material-icons">business</span>
         <span className="ml-1">{pageContext.node.industry.map((p, i, l) => i === l.length - 1 ?
-          <Fragment key={"industry" + i}>{p.name}</Fragment> : <Fragment key={"industry" + i}>{p.name},&nbsp;</Fragment>,
+          <Fragment key={"industry" + i}>{p.name}</Fragment> :
+          <Fragment key={"industry" + i}>{p.name},&nbsp;</Fragment>,
         )}
               </span>
         <br/>
@@ -46,7 +55,7 @@ export default ({ data, pageContext }) => (
       {pageContext.node.publications.map((p, i) => {
         return <Fragment key={"results" + i}>
           <span className="material-icons">library_books</span>
-          <a className="ml-1" key={p} href={p.url} target="_blank" rel="noopener noreferrer">
+          <a className="ml-1 outlink" key={p} href={p.url} target="_blank" rel="noopener noreferrer">
             {p.name}
           </a>
           <br/>
