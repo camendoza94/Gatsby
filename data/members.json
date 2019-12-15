@@ -5,7 +5,7 @@
     "category": "professor",
     "subCategory": "Lead Researcher",
     "contact": true,
-    "image" : "kj.garces971.jpg",
+    "image" : "kj.garces971.png",
     "email": "kj[dot]garces971[at]uniandes[dot]edu[dot]co",
     "status": "active"
   },
@@ -14,6 +14,7 @@
     "url": "https://profesores.virtual.uniandes.edu.co/rcasalla/es/inicio/",
     "category": "professor",
     "subCategory": "Co-researcher",
+    "image": "RubbyCasallas.png",
     "status": "active"
   },
   {
@@ -21,14 +22,16 @@
     "url": "https://profesores.virtual.uniandes.edu.co/ncardozo/es/inicio/",
     "category": "professor",
     "subCategory": "Co-researcher",
-    "status": "active"
+    "status": "active",
+    "image": "n.cardozo2.jpg"
   },
   {
     "name": "Giacomo Barbieri",
     "url": "https://uniandes.academia.edu/GiacomoBarbieri",
     "category": "professor",
     "subCategory": "Co-researcher",
-    "status": "active"
+    "status": "active",
+    "image": "s200_giacomo.barbieri.jpg"
   },
   {
     "name": "Iván Alfonso",

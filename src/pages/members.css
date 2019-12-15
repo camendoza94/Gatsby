@@ -1,4 +1,21 @@
 .card-deck .card {
-    max-width: calc(33% - 30px);
-    min-width: calc(33% - 30px);
+    max-width: calc(25% - 30px);
+    min-width: calc(25% - 30px);
+    margin: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .card-deck .card {
+        max-width: calc(50% - 60px);
+        min-width: calc(50% - 60px);
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .card-deck .card {
+        max-width: calc(70% - 60px);
+        min-width: calc(70% - 60px);
+        margin: auto;
+    }
 }
