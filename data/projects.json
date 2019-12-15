@@ -11,7 +11,8 @@
     "members": [
       0,
       2,
-      5
+      13,
+      6
     ],
     "industry": [
       {
@@ -19,10 +20,6 @@
       }
     ],
     "publications": [
-      {
-        "name": "Ariza, J., Mendoza, C., Garcés, K., & Cardozo, N. (2018). A Research Agenda for IoT Adaptive Architectures. In Multidisciplinary Digital Publishing Institute Proceedings (Vol. 2, No. 19, p. 1229).",
-        "url": "https://www.mdpi.com/2504-3900/2/19/1229"
-      },
       {
         "name": "Ariza, J., Mendoza, C., Garcés, K., & Cardozo, N. (2018). A Research Agenda for IoT Adaptive Architectures. In Multidisciplinary Digital Publishing Institute Proceedings (Vol. 2, No. 19, p. 1229).",
         "url": "https://www.mdpi.com/2504-3900/2/19/1229"
@@ -30,28 +27,188 @@
     ]
   },
   {
-    "name": "Adaptive Architecture for Transient IoT Systems",
-    "slug": "adaptive_architecture2",
-    "period": "2017-2018",
+    "name": "Issues Detection in the Continuous Integration Pipeline",
+    "slug": "archid",
+    "period": "2018-present",
+    "researchLine": 2,
+    "description": "Adaptation is crucial for the success of IoT systems since these are part of continuously changing environments. Changes may come from the different layers of an IOT system, either service, connectivity or physical layer. Most existing literature pays special attention to changes in the service layer leaving out the rest of the layers. In previous work, we have presented eight challenges that may impact the three layers of IoT systems. These challenges have served us as a research agenda to foster IoT systems. As a starting point, we chose two of these challenges –referred to as inclusion of new devices and devices’ transient connection– and designed a software architecture to adaptIoT systems to them. Various of the architectural components are inspired on a reference architecture, and complemented by new components to manage dynamic adaptations in response to the two selected challenges. Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
+    "summary": "Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
+    "status": "active",
+    "members": [
+      0,
+      1,
+      6,
+      5
+    ]
+  },
+  {
+    "name": "IoT Systems for Coal Mines",
+    "slug": "iot_mining",
+    "period": "2018-present",
     "researchLine": 0,
-    "url": "https://github.com/SELF-Software-Evolution-Lab/Adaptive-Architecture-for-Transient-IoT-Systems",
+    "description": "Adaptation is crucial for the success of IoT systems since these are part of continuously changing environments. Changes may come from the different layers of an IOT system, either service, connectivity or physical layer. Most existing literature pays special attention to changes in the service layer leaving out the rest of the layers. In previous work, we have presented eight challenges that may impact the three layers of IoT systems. These challenges have served us as a research agenda to foster IoT systems. As a starting point, we chose two of these challenges –referred to as inclusion of new devices and devices’ transient connection– and designed a software architecture to adaptIoT systems to them. Various of the architectural components are inspired on a reference architecture, and complemented by new components to manage dynamic adaptations in response to the two selected challenges. Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
+    "summary": "Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
+    "status": "active",
+    "members": [
+      0,
+      4
+    ],
+    "publications": [
+      {
+        "name": "Alfonso, I., Goméz, C., Garcés, K., & Chavarriaga, J. (2018, May). Lifetime optimization of Wireless Sensor Networks for gas monitoring in underground coal mining. In 2018 7th International Conference on Computers Communications and Control (ICCCC) (pp. 224-230). IEEE.",
+        "url": "https://ieeexplore.ieee.org/abstract/document/8390462"
+      }
+    ]
+  },
+  {
+    "name": "Oracle Forms Modernization",
+    "slug": "oracle_forms_modernization",
+    "period": "2015-2018",
+    "researchLine": 1,
     "description": "Adaptation is crucial for the success of IoT systems since these are part of continuously changing environments. Changes may come from the different layers of an IOT system, either service, connectivity or physical layer. Most existing literature pays special attention to changes in the service layer leaving out the rest of the layers. In previous work, we have presented eight challenges that may impact the three layers of IoT systems. These challenges have served us as a research agenda to foster IoT systems. As a starting point, we chose two of these challenges –referred to as inclusion of new devices and devices’ transient connection– and designed a software architecture to adaptIoT systems to them. Various of the architectural components are inspired on a reference architecture, and complemented by new components to manage dynamic adaptations in response to the two selected challenges. Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
     "summary": "Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
     "status": "inactive",
     "members": [
       0,
-      2,
-      5
+      1
     ],
     "industry": [
       {
-        "name": "Giovanny Saray"
+        "name": "Fabian Melo"
+      },
+      {
+        "name": "Freddy Viera"
+      },
+      {
+        "name": "Juan Manuel Soto"
+      },
+      {
+        "name": "Alejandro Salamanca"
+      },
+      {
+        "name": "Sandra Pinto"
       }
     ],
     "publications": [
       {
-        "name": "A Research Agenda for IOT Adaptive Architectures",
-        "url": "https://www.mdpi.com/2504-3900/2/19/1229"
+        "name": "Garcés, K., Casallas, R., Álvarez, C., Sandoval, E., Salamanca, A., Viera, F., ... & Soto, J. M. (2018). White-box modernization of legacy applications: The oracle forms case study. Computer Standards & Interfaces, 57, 110-122.",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0920548916302227"
+      },
+      {
+        "name": "Mendivelso, L. F., Garcés, K., & Casallas, R. (2018). Metric-centered and technology-independent architectural views for software comprehension. Journal of Software Engineering Research and Development, 6(1), 16.",
+        "url": "https://jserd.springeropen.com/articles/10.1186/s40411-018-0060-6"
+      },
+      {
+        "name": "Mendivelso, L. F., Garcés, K., & Casallas, R. (2017). Vistas arquitectónicas independientes de tecnología para compresión de software. In Proceedings of the 20th Conferencia Iberoamericana en Software Engineering (CIbSE 2017). Buenos Aires (pp. 71-84)."
+      },
+      {
+        "name": "Garcés, K., Casallas, R., Álvarez, C., Sandoval, E., Salamanca, A., Melo, F., & Soto, J. M. (2016, September). White-Box Modernization of Legacy Applications. In International Conference on Model and Data Engineering (pp. 274-287). Springer, Cham.",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-319-45547-1_22"
+      },
+      {
+        "name": "Garcés, K., Sandoval, E., Casallas, R., Alvarez, C., Salamanca, A., Pinto, S., & Melo, F. (2015). Aiming towards modernization: visualization to assist structural understanding of oracle forms applications. In Proceedings of the Tenth International Conference on Software Engineering Advances, ICSEA 2015 (pp. 86-95). IARIA.",
+        "url": "https://www.researchgate.net/profile/Kelly_Garces/publication/301221556_Aiming_towards_Modernization_Visualization_to_Assist_Structural_Understanding_of_Oracle_Forms_Applications/links/570d3a5508ae2b772e431d2a/Aiming-towards-Modernization-Visualization-to-Assist-Structural-Understanding-of-Oracle-Forms-Applications.pdf"
+      }
+    ],
+    "demos": [
+      {
+        "title": "Oracle Forms 6 Cartography Tool Overview V1",
+        "id": "xfyqzALey24"
+      }
+    ]
+  },
+  {
+    "name": "Ruby on Rails Modernization",
+    "slug": "ror_modernization",
+    "period": "2017",
+    "researchLine": 1,
+    "description": "Adaptation is crucial for the success of IoT systems since these are part of continuously changing environments. Changes may come from the different layers of an IOT system, either service, connectivity or physical layer. Most existing literature pays special attention to changes in the service layer leaving out the rest of the layers. In previous work, we have presented eight challenges that may impact the three layers of IoT systems. These challenges have served us as a research agenda to foster IoT systems. As a starting point, we chose two of these challenges –referred to as inclusion of new devices and devices’ transient connection– and designed a software architecture to adaptIoT systems to them. Various of the architectural components are inspired on a reference architecture, and complemented by new components to manage dynamic adaptations in response to the two selected challenges. Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
+    "summary": "Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
+    "status": "inactive",
+    "members": [
+      0
+    ],
+    "industry": [
+      {
+        "name": "Jair García"
+      }
+    ],
+    "publications": [
+      {
+        "name": "García, J., & Garcés, K. (2017, August). Improving understanding of dynamically typed software developed by agile practitioners. In Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering (pp. 908-913). ACM.",
+        "url": "https://dl.acm.org/citation.cfm?id=3117772"
+      }
+    ]
+  },
+  {
+    "name": "Crystal Reports Modernization",
+    "slug": "crystal_modernization",
+    "period": "2018",
+    "researchLine": 1,
+    "description": "Adaptation is crucial for the success of IoT systems since these are part of continuously changing environments. Changes may come from the different layers of an IOT system, either service, connectivity or physical layer. Most existing literature pays special attention to changes in the service layer leaving out the rest of the layers. In previous work, we have presented eight challenges that may impact the three layers of IoT systems. These challenges have served us as a research agenda to foster IoT systems. As a starting point, we chose two of these challenges –referred to as inclusion of new devices and devices’ transient connection– and designed a software architecture to adaptIoT systems to them. Various of the architectural components are inspired on a reference architecture, and complemented by new components to manage dynamic adaptations in response to the two selected challenges. Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
+    "summary": "Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
+    "status": "inactive",
+    "members": [
+      0
+    ]
+  },
+  {
+    "name": "JEE and Microservices Modernization",
+    "slug": "jee_modernization",
+    "period": "2016",
+    "researchLine": 1,
+    "description": "Adaptation is crucial for the success of IoT systems since these are part of continuously changing environments. Changes may come from the different layers of an IOT system, either service, connectivity or physical layer. Most existing literature pays special attention to changes in the service layer leaving out the rest of the layers. In previous work, we have presented eight challenges that may impact the three layers of IoT systems. These challenges have served us as a research agenda to foster IoT systems. As a starting point, we chose two of these challenges –referred to as inclusion of new devices and devices’ transient connection– and designed a software architecture to adaptIoT systems to them. Various of the architectural components are inspired on a reference architecture, and complemented by new components to manage dynamic adaptations in response to the two selected challenges. Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
+    "summary": "Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
+    "status": "inactive",
+    "members": [
+      0,
+      1
+    ],
+    "publications": [
+      {
+        "name": "Escobar, D., Cárdenas, D., Amarillo, R., Castro, E., Garcés, K., Parra, C., & Casallas, R. (2016, October). Towards the understanding and evolution of monolithic applications as microservices. In 2016 XLII Latin American Computing Conference (CLEI) (pp. 1-11). IEEE.",
+        "url": "https://ieeexplore.ieee.org/abstract/document/7833410/"
+      }
+    ]
+  },
+  {
+    "name": "Mining of Model to Model Transformation Repositories",
+    "slug": "m2m_mining",
+    "period": "2017-2018",
+    "researchLine": 1,
+    "description": "Adaptation is crucial for the success of IoT systems since these are part of continuously changing environments. Changes may come from the different layers of an IOT system, either service, connectivity or physical layer. Most existing literature pays special attention to changes in the service layer leaving out the rest of the layers. In previous work, we have presented eight challenges that may impact the three layers of IoT systems. These challenges have served us as a research agenda to foster IoT systems. As a starting point, we chose two of these challenges –referred to as inclusion of new devices and devices’ transient connection– and designed a software architecture to adaptIoT systems to them. Various of the architectural components are inspired on a reference architecture, and complemented by new components to manage dynamic adaptations in response to the two selected challenges. Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
+    "summary": "Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
+    "status": "inactive",
+    "members": [
+      0,
+      1
+    ],
+    "publications": [
+      {
+        "name": "Bonet, N., Garcés, K., Casallas, R., Correal, M. E., & Wei, R. (2018). Influence of programming style in transformation bad smells: mining of ETL repositories. Computer Science Education, 28(1), 87-108.",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/08993408.2018.1472950"
+      },
+      {
+        "name": "Bonet N, Garces K, Casallas R, Correal M, Ran W. (2017) Influence of Programming Style in Transformation Bad Smells: Mining of ETL Repositories. CEUR Workshop Proceedings (ISSN 1613-0073) Estados Unidos. - 2017",
+        "url": "http://ceur-ws.org/Vol-2019/edusymp_5.pdf"
+      }
+    ]
+  },
+  {
+    "name": "IoT Systems for Predictive Maintenance in Industry 4.0",
+    "slug": "predictive_maintenance",
+    "period": "2019",
+    "researchLine": 0,
+    "description": "Adaptation is crucial for the success of IoT systems since these are part of continuously changing environments. Changes may come from the different layers of an IOT system, either service, connectivity or physical layer. Most existing literature pays special attention to changes in the service layer leaving out the rest of the layers. In previous work, we have presented eight challenges that may impact the three layers of IoT systems. These challenges have served us as a research agenda to foster IoT systems. As a starting point, we chose two of these challenges –referred to as inclusion of new devices and devices’ transient connection– and designed a software architecture to adaptIoT systems to them. Various of the architectural components are inspired on a reference architecture, and complemented by new components to manage dynamic adaptations in response to the two selected challenges. Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
+    "summary": "Our solution has three pillars: i) ontologies and instances to represent the domain knowledge; ii) an algorithm that matches instances of services and IOT devices taking into account three perspectives (i.e., functional requirements, quality attributes and sensors properties); and iii) an algorithm that updates such matches whenever a change happens (e.g., sensor unavailability). Our results show a higher accuracy of the matching algorithm compared with that of existing approaches.",
+    "status": "inactive",
+    "members": [
+      0,
+      3
+    ],
+    "publications": [
+      {
+        "name": "Ardila A, Martinez F, Garces K, Barbieri G, Sanchez D, Caielli A, Cattaneo L, Fumagalli L. (2019) Xrepo - Towards an information system for prognostics and health management analysis. International conference on industry 4.0 and smart manufacturing (ISM) Cosenza, Italia"
       }
     ]
   }

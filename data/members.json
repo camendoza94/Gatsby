@@ -11,14 +11,21 @@
   },
   {
     "name": "Rubby Casallas",
-    "url": "https://profesores.virtual.uniandes.edu.co/kjgarces971/es/inicio/",
+    "url": "https://profesores.virtual.uniandes.edu.co/rcasalla/es/inicio/",
     "category": "professor",
     "subCategory": "Co-researcher",
     "status": "active"
   },
   {
     "name": "Nicolas Cardozo",
-    "url": "https://profesores.virtual.uniandes.edu.co/kjgarces971/es/inicio/",
+    "url": "https://profesores.virtual.uniandes.edu.co/ncardozo/es/inicio/",
+    "category": "professor",
+    "subCategory": "Co-researcher",
+    "status": "active"
+  },
+  {
+    "name": "Giacomo Barbieri",
+    "url": "https://uniandes.academia.edu/GiacomoBarbieri",
     "category": "professor",
     "subCategory": "Co-researcher",
     "status": "active"
@@ -26,48 +33,95 @@
   {
     "name": "Iván Alfonso",
     "category": "phd",
-    "status": "inactive"
+    "status": "active"
+  },
+  {
+    "name": "José Bocanegra",
+    "category": "phd",
+    "status": "active"
+  },
+  {
+    "name": "Camilo Mendoza",
+    "category": "msc",
+    "subCategory": "research",
+    "status": "active"
+  },
+  {
+    "name": "Wilmer Rubio",
+    "category": "msc",
+    "subCategory": "research",
+    "status": "active"
+  },
+  {
+    "name": "Nicolas Robles",
+    "category": "msc",
+    "subCategory": "research",
+    "status": "active"
+  },
+  {
+    "name": "Daniel Althviz",
+    "category": "msc",
+    "subCategory": "research",
+    "status": "active"
+  },
+  {
+    "name": "Esteban Reyes",
+    "category": "msc",
+    "subCategory": "research",
+    "status": "active"
+  },
+  {
+    "name": "Andres Leon",
+    "category": "msc",
+    "subCategory": "research",
+    "status": "active"
   },
   {
     "name": "Diego Prens",
     "category": "msc",
     "subCategory": "research",
-    "status": "active"
+    "status": "inactive"
   },
   {
     "name": "Jairo Ariza",
     "category": "msc",
     "subCategory": "research",
-    "status": "active"
-  },
-  {
-    "name": "Paula Castellanos",
-    "category": "msc",
-    "subCategory": "deepening",
-    "status": "active"
-  },
-  {
-    "name": "Diego Prieto",
-    "category": "msc",
-    "subCategory": "deepening",
-    "status": "active"
-  },
-  {
-    "name": "Jarvein Rivera",
-    "category": "msc",
-    "subCategory": "deepening",
-    "status": "active"
-  },
-  {
-    "name": "José Pulgarín",
-    "category": "msc",
-    "subCategory": "deepening",
     "status": "inactive"
   },
   {
-    "name": "Félix Ruiz",
+    "name": "Fabián Melo",
     "category": "msc",
-    "subCategory": "deepening",
+    "subCategory": "research",
+    "status": "inactive"
+  },
+  {
+    "name": "Freddy Viera",
+    "category": "msc",
+    "subCategory": "research",
+    "status": "inactive"
+  },
+  {
+    "name": "Juan Manuel Soto",
+    "category": "msc",
+    "subCategory": "research",
+    "status": "inactive"
+  },
+  {
+    "name": "Alejandro Salamanca",
+    "category": "msc",
+    "subCategory": "research",
+    "status": "inactive"
+  },
+  {
+    "name": "Sandra Pinto",
+    "category": "msc",
+    "subCategory": "research",
+    "status": "inactive"
+  },
+  {
+    "name": "Jair Garcia",
+    "category": "msc",
+    "subCategory": "research",
     "status": "inactive"
   }
 ]

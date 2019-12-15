@@ -23,6 +23,10 @@ exports.createPages = async ({ graphql, actions }) => {
             industry {
               name
             }
+            demos {
+              title
+              id
+            }
           }
         }
       }

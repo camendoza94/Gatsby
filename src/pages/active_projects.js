@@ -23,7 +23,7 @@ export default ({ data }) => {
 }
 
 export const query = graphql`
-query Projects {
+query {
   allProjectsJson(filter: {status: {eq: "active"}}) {
     edges {
       node {

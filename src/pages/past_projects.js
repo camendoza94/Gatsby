@@ -28,7 +28,6 @@ query {
     edges {
       node {
         id
-        url
         name
         status
         summary
